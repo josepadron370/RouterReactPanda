@@ -3,10 +3,10 @@ import './App.css';
 import { Link } from "react-router-dom";
 
 
-function Nav() {
+function Footer() {
   return (
 <div className="nav">
-<h1>Navigation</h1>
+<h1>Footer</h1>
 
 
         <Link to="/store">
@@ -27,4 +27,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Footer;
